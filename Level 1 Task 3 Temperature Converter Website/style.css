@@ -1,0 +1,118 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    background-size: cover;
+    background-position: center;
+}
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+
+}
+
+.display h1 {
+    font-size: 35px;
+    color: rgb(248, 243, 243);
+}
+
+.temp_calculator {
+    width: 550px;
+    margin: 40px auto;
+    border: 0px solid #fff;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+}
+
+form {
+    padding: 15px;
+}
+
+h2.title {
+    font-size: 25px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.calculator_input{
+    float: left;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    padding: 8px;
+}
+
+.result_area label {
+    width: 18%;
+    
+}
+
+.result_area input {
+    width: 100%;
+}
+
+.calculator_value label {
+    width: 36%;
+    float: left;
+}
+
+.calculator_value input {
+    width: 64%;
+}
+
+.calculator_value {
+    margin-bottom: 30px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+button#convert {
+    float: right;
+}
+
+button.cal-btn {
+    width: 40%;
+    padding: 15px;
+    border: none;
+    background: #035670;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+select {
+    padding: 5px;
+}
